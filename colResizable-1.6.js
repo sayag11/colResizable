@@ -369,7 +369,8 @@
 	 * @param {Object} options -  an object that holds some basic customization values 
 	 */
     $.fn.extend({  
-        colResizable: function(options) {           
+        colResizable: function(options) {
+        	console.log('colResizable Active - Test');
             var defaults = {
 			
 				//attributes:
